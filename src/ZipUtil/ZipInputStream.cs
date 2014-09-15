@@ -41,15 +41,15 @@ using System;
 using System.Text;
 using System.IO;
 
-using Oraion.CSharp.ZipLib.Checksums;
-using Oraion.CSharp.ZipLib.Zip.Compression;
-using Oraion.CSharp.ZipLib.Zip.Compression.Streams;
+using CSharp.ZipLib.Checksums;
+using CSharp.ZipLib.Zip.Compression;
+using CSharp.ZipLib.Zip.Compression.Streams;
 
 #if !NETCF_1_0
-using Oraion.CSharp.ZipLib.Encryption;
+using CSharp.ZipLib.Encryption;
 #endif
 
-namespace Oraion.CSharp.ZipLib.Zip
+namespace CSharp.ZipLib.Zip
 {
 	/// <summary>
 	/// This is an InflaterInputStream that reads the files baseInputStream an zip archive
@@ -67,7 +67,7 @@ namespace Oraion.CSharp.ZipLib.Zip
 	/// using System.Text;
 	/// using System.IO;
 	/// 
-	/// using Oraion.CSharp.ZipLib.Zip;
+	/// using CSharp.ZipLib.Zip;
 	/// 
 	/// class MainClass
 	/// {

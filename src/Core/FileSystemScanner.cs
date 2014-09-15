@@ -37,7 +37,7 @@
 using System;
 using System.IO;
 
-namespace Oraion.CSharp.ZipLib.Core
+namespace CSharp.ZipLib.Core
 {
 	#region EventArgs
 	/// <summary>

@@ -37,7 +37,7 @@
 
 using System;
 
-namespace Oraion.CSharp.ZipLib.Checksums 
+namespace CSharp.ZipLib.Checksums 
 {
 	
 	/// <summary>
@@ -84,8 +84,8 @@ namespace Oraion.CSharp.ZipLib.Checksums
 	///    checked separately. (Any sequence of zeroes has a Fletcher
 	///    checksum of zero.)"
 	/// </summary>
-	/// <see cref="Oraion.CSharp.ZipLib.Zip.Compression.Streams.InflaterInputStream"/>
-	/// <see cref="Oraion.CSharp.ZipLib.Zip.Compression.Streams.DeflaterOutputStream"/>
+	/// <see cref="CSharp.ZipLib.Zip.Compression.Streams.InflaterInputStream"/>
+	/// <see cref="CSharp.ZipLib.Zip.Compression.Streams.DeflaterOutputStream"/>
 	public sealed class Adler32 : IChecksum
 	{
 		/// <summary>

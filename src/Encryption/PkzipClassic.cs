@@ -40,9 +40,9 @@
 
 using System;
 using System.Security.Cryptography;
-using Oraion.CSharp.ZipLib.Checksums;
+using CSharp.ZipLib.Checksums;
 
-namespace Oraion.CSharp.ZipLib.Encryption
+namespace CSharp.ZipLib.Encryption
 {
 	/// <summary>
 	/// PkzipClassic embodies the classic or original encryption facilities used in Pkzip archives.

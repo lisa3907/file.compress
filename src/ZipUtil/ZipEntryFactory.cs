@@ -39,9 +39,9 @@ using System;
 using System.IO;
 using System.Text;
 
-using Oraion.CSharp.ZipLib.Core;
+using CSharp.ZipLib.Core;
 
-namespace Oraion.CSharp.ZipLib.Zip
+namespace CSharp.ZipLib.Zip
 {
     /// <summary>
     /// Basic implementation of <see cref="IEntryFactory"></see>

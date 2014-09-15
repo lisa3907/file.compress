@@ -37,9 +37,9 @@
 
 using System;
 
-using Oraion.CSharp.ZipLib.Core;
+using CSharp.ZipLib.Core;
 
-namespace Oraion.CSharp.ZipLib.Zip
+namespace CSharp.ZipLib.Zip
 {
 	/// <summary>
 	/// Defines factory methods for creating new <see cref="ZipEntry"></see> values.

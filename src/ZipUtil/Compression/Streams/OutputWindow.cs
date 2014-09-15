@@ -39,7 +39,7 @@
 using System;
 
 
-namespace Oraion.CSharp.ZipLib.Zip.Compression.Streams 
+namespace CSharp.ZipLib.Zip.Compression.Streams 
 {
 	
 	/// <summary>

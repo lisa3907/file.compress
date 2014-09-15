@@ -38,7 +38,7 @@ using System;
 using System.Collections;
 using System.IO;
 
-namespace Oraion.CSharp.ZipLib.Zip
+namespace CSharp.ZipLib.Zip
 {
 	// TODO: Sort out wether tagged data is useful and what a good implementation might look like.
 	// Its just a sketch of an idea at the moment.

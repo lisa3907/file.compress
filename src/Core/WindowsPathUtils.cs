@@ -35,7 +35,7 @@
 
 using System;
 
-namespace Oraion.CSharp.ZipLib.Core
+namespace CSharp.ZipLib.Core
 {
 	/// <summary>
 	/// WindowsPathUtils provides simple utilities for handling windows paths.

@@ -40,7 +40,7 @@
 using System;
 using System.IO;
 
-namespace Oraion.CSharp.ZipLib.Zip
+namespace CSharp.ZipLib.Zip
 {
 
     /// <summary>
@@ -871,8 +871,8 @@ namespace Oraion.CSharp.ZipLib.Zip
         /// <returns>
         /// The compression method for this entry
         /// </returns>
-        /// <see cref="Oraion.CSharp.ZipLib.Zip.CompressionMethod.Deflated"/>
-        /// <see cref="Oraion.CSharp.ZipLib.Zip.CompressionMethod.Stored"/>
+        /// <see cref="CSharp.ZipLib.Zip.CompressionMethod.Deflated"/>
+        /// <see cref="CSharp.ZipLib.Zip.CompressionMethod.Stored"/>
         public CompressionMethod CompressionMethod
         {
             get

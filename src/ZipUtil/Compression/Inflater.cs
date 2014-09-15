@@ -39,10 +39,10 @@
 
 using System;
 
-using Oraion.CSharp.ZipLib.Checksums;
-using Oraion.CSharp.ZipLib.Zip.Compression.Streams;
+using CSharp.ZipLib.Checksums;
+using CSharp.ZipLib.Zip.Compression.Streams;
 
-namespace Oraion.CSharp.ZipLib.Zip.Compression 
+namespace CSharp.ZipLib.Zip.Compression 
 {
 	/// <summary>
 	/// Inflater is used to decompress data that has been compressed according

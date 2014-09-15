@@ -5,13 +5,13 @@ using System.Runtime.InteropServices;
 // 어셈블리의 일반 정보는 다음 특성 집합을 통해 제어됩니다.
 // 어셈블리와 관련된 정보를 수정하려면
 // 이 특성 값을 변경하십시오.
-[assembly: AssemblyTitle("uBizSoft.PRD.ZipFile.V40")]
-[assembly: AssemblyDescription("uBizSoft ZipFile Program V4.0")]
+[assembly: AssemblyTitle("ZipFile")]
+[assembly: AssemblyDescription("ZipFile Program V4.0")]
 [assembly: AssemblyConfiguration("debug")]
-[assembly: AssemblyCompany("uBizSoft - http://www.ubizsoft.com")]
-[assembly: AssemblyProduct("uBizSoft Framework Services")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("Framework Services")]
 [assembly: AssemblyCopyright("(C) 2001~2011 OraionSoft Corporation. All rights Reserved")]
-[assembly: AssemblyTrademark("uBizSoft Framework")]
+[assembly: AssemblyTrademark("Framework")]
 [assembly: AssemblyCulture("")]
 
 // ComVisible을 false로 설정하면 이 어셈블리의 형식이 COM 구성 요소에 

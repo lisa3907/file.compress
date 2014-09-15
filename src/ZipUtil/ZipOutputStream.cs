@@ -42,11 +42,11 @@ using System.IO;
 using System.Collections;
 using System.Text;
 
-using Oraion.CSharp.ZipLib.Checksums;
-using Oraion.CSharp.ZipLib.Zip.Compression;
-using Oraion.CSharp.ZipLib.Zip.Compression.Streams;
+using CSharp.ZipLib.Checksums;
+using CSharp.ZipLib.Zip.Compression;
+using CSharp.ZipLib.Zip.Compression.Streams;
 
-namespace Oraion.CSharp.ZipLib.Zip
+namespace CSharp.ZipLib.Zip
 {
     /// <summary>
     /// This is a DeflaterOutputStream that writes the files into a zip
@@ -64,8 +64,8 @@ namespace Oraion.CSharp.ZipLib.Zip
     /// using System;
     /// using System.IO;
     /// 
-    /// using Oraion.CSharp.ZipLib.Core;
-    /// using Oraion.CSharp.ZipLib.Zip;
+    /// using CSharp.ZipLib.Core;
+    /// using CSharp.ZipLib.Zip;
     /// 
     /// class MainClass
     /// {
@@ -145,7 +145,7 @@ namespace Oraion.CSharp.ZipLib.Zip
         /// <exception cref="ArgumentOutOfRangeException">
         /// Level specified is not supported.
         /// </exception>
-        /// <see cref="Oraion.CSharp.ZipLib.Zip.Compression.Deflater"/>
+        /// <see cref="CSharp.ZipLib.Zip.Compression.Deflater"/>
         public void SetLevel(int level)
         {
             m_deflater.SetLevel(level);

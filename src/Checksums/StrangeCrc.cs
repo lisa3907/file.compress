@@ -38,7 +38,7 @@
 
 using System;
 
-namespace Oraion.CSharp.ZipLib.Checksums 
+namespace CSharp.ZipLib.Checksums 
 {
 	/// <summary>
 	/// Bzip2 checksum algorithm

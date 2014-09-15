@@ -2,7 +2,7 @@
 using System.Collections;
 using System.IO;
 
-namespace Oraion.CSharp.ZipLib.Zip
+namespace CSharp.ZipLib.Zip
 {
     public class ZipUtil
     {

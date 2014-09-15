@@ -45,15 +45,15 @@ using System.Globalization;
 
 #if !NETCF_1_0
 using System.Security.Cryptography;
-using Oraion.CSharp.ZipLib.Encryption;
+using CSharp.ZipLib.Encryption;
 #endif
 
-using Oraion.CSharp.ZipLib.Core;
-using Oraion.CSharp.ZipLib.Checksums;
-using Oraion.CSharp.ZipLib.Zip.Compression.Streams;
-using Oraion.CSharp.ZipLib.Zip.Compression;
+using CSharp.ZipLib.Core;
+using CSharp.ZipLib.Checksums;
+using CSharp.ZipLib.Zip.Compression.Streams;
+using CSharp.ZipLib.Zip.Compression;
 
-namespace Oraion.CSharp.ZipLib.Zip
+namespace CSharp.ZipLib.Zip
 {
     #region Keys Required Event Args
     /// <summary>
@@ -337,7 +337,7 @@ namespace Oraion.CSharp.ZipLib.Zip
     /// using System.Collections;
     /// using System.IO;
     /// 
-    /// using Oraion.CSharp.ZipLib.Zip;
+    /// using CSharp.ZipLib.Zip;
     /// 
     /// class MainClass
     /// {
@@ -836,7 +836,7 @@ namespace Oraion.CSharp.ZipLib.Zip
         /// <exception cref="ObjectDisposedException">
         /// The ZipFile has already been closed
         /// </exception>
-        /// <exception cref="Oraion.CSharp.ZipLib.Zip.ZipException">
+        /// <exception cref="CSharp.ZipLib.Zip.ZipException">
         /// The compression method for the entry is unknown
         /// </exception>
         /// <exception cref="IndexOutOfRangeException">
@@ -876,7 +876,7 @@ namespace Oraion.CSharp.ZipLib.Zip
         /// <exception cref="ObjectDisposedException">
         /// The ZipFile has already been closed
         /// </exception>
-        /// <exception cref="Oraion.CSharp.ZipLib.Zip.ZipException">
+        /// <exception cref="CSharp.ZipLib.Zip.ZipException">
         /// The compression method for the entry is unknown
         /// </exception>
         /// <exception cref="IndexOutOfRangeException">
@@ -3425,7 +3425,7 @@ namespace Oraion.CSharp.ZipLib.Zip
         /// <exception cref="System.IO.IOException">
         /// An i/o error occurs.
         /// </exception>
-        /// <exception cref="Oraion.CSharp.ZipLib.Zip.ZipException">
+        /// <exception cref="CSharp.ZipLib.Zip.ZipException">
         /// The central directory is malformed or cannot be found
         /// </exception>
         void ReadEntries()
@@ -3616,7 +3616,7 @@ namespace Oraion.CSharp.ZipLib.Zip
         /// <exception cref="System.IO.EndOfStreamException">
         /// The stream ends prematurely
         /// </exception>
-        /// <exception cref="Oraion.CSharp.ZipLib.Zip.ZipException">
+        /// <exception cref="CSharp.ZipLib.Zip.ZipException">
         /// The local header signature is invalid, the entry and central header file name lengths are different
         /// or the local and entry compression methods dont match
         /// </exception>

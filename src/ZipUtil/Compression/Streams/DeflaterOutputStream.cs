@@ -38,15 +38,15 @@
 
 using System;
 using System.IO;
-using Oraion.CSharp.ZipLib.Checksums;
-using Oraion.CSharp.ZipLib.Zip.Compression;
+using CSharp.ZipLib.Checksums;
+using CSharp.ZipLib.Zip.Compression;
 
 #if !NETCF_1_0
 using System.Security.Cryptography;
-using Oraion.CSharp.ZipLib.Encryption;
+using CSharp.ZipLib.Encryption;
 #endif
 
-namespace Oraion.CSharp.ZipLib.Zip.Compression.Streams
+namespace CSharp.ZipLib.Zip.Compression.Streams
 {
     /// <summary>
     /// A special stream deflating or compressing the bytes that are

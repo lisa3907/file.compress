@@ -36,7 +36,7 @@
 using System;
 using System.IO;
 
-namespace Oraion.CSharp.ZipLib.Core
+namespace CSharp.ZipLib.Core
 {
 	/// <summary>
 	/// Provides simple <see cref="Stream"/>" utilities.

@@ -1,17 +1,17 @@
 ﻿using System;
 using System.IO;
 
-namespace uBizSoft.PRD.ZipFile
+namespace ZipFile
 {
     class Program
     {
-        private Oraion.CSharp.ZipLib.Zip.ZipUtil m_ziplib = null;
-        private Oraion.CSharp.ZipLib.Zip.ZipUtil ZipLib
+        private CSharp.ZipLib.Zip.ZipUtil m_ziplib = null;
+        private CSharp.ZipLib.Zip.ZipUtil ZipLib
         {
             get
             {
                 if (m_ziplib == null)
-                    m_ziplib = new Oraion.CSharp.ZipLib.Zip.ZipUtil();
+                    m_ziplib = new CSharp.ZipLib.Zip.ZipUtil();
 
                 return m_ziplib;
             }

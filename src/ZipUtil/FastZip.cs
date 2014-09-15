@@ -35,9 +35,9 @@
 
 using System;
 using System.IO;
-using Oraion.CSharp.ZipLib.Core;
+using CSharp.ZipLib.Core;
 
-namespace Oraion.CSharp.ZipLib.Zip
+namespace CSharp.ZipLib.Zip
 {
     /// <summary>
     /// FastZipEvents supports all events applicable to <see cref="FastZip">FastZip</see> operations.

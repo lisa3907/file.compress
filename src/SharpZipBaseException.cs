@@ -39,7 +39,7 @@ using System;
 using System.Runtime.Serialization;
 #endif
 
-namespace Oraion.CSharp.ZipLib
+namespace CSharp.ZipLib
 {
     /// <summary>
     /// SharpZipBaseException is the base exception class for the SharpZipLibrary.

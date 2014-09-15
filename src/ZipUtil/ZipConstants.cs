@@ -45,7 +45,7 @@ using System.Threading;
 using System.Globalization;
 #endif
 
-namespace Oraion.CSharp.ZipLib.Zip 
+namespace CSharp.ZipLib.Zip 
 {
 
 	#region Enumerations

@@ -44,10 +44,10 @@ using System.IO;
 using System.Security.Cryptography;
 #endif
 
-using Oraion.CSharp.ZipLib.Zip.Compression;
-using Oraion.CSharp.ZipLib.Checksums;
+using CSharp.ZipLib.Zip.Compression;
+using CSharp.ZipLib.Checksums;
 
-namespace Oraion.CSharp.ZipLib.Zip.Compression.Streams 
+namespace CSharp.ZipLib.Zip.Compression.Streams 
 {
 
 	/// <summary>
@@ -350,7 +350,7 @@ namespace Oraion.CSharp.ZipLib.Zip.Compression.Streams
 	/// format. The "deflate" format is described in RFC 1951.
 	///
 	/// This stream may form the basis for other decompression filters, such
-	/// as the <see cref="Oraion.CSharp.ZipLib.GZip.GZipInputStream">GZipInputStream</see>.
+	/// as the <see cref="CSharp.ZipLib.GZip.GZipInputStream">GZipInputStream</see>.
 	///
 	/// Author of the original java version : John Leuner.
 	/// </summary>

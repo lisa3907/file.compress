@@ -42,7 +42,7 @@ using System;
 using System.Runtime.Serialization;
 #endif
 
-namespace Oraion.CSharp.ZipLib.Zip 
+namespace CSharp.ZipLib.Zip 
 {
 	
 	/// <summary>

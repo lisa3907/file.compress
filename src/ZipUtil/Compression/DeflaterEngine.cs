@@ -39,9 +39,9 @@
 
 using System;
 
-using Oraion.CSharp.ZipLib.Checksums;
+using CSharp.ZipLib.Checksums;
 
-namespace Oraion.CSharp.ZipLib.Zip.Compression 
+namespace CSharp.ZipLib.Zip.Compression 
 {
 	
 	/// <summary>
